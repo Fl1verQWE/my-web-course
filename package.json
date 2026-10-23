@@ -1,0 +1,21 @@
+{
+  "name": "my-web-course",
+  "version": "1.0.0",
+  "description": "Мої домашні завдання з курсу веб-розробки",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fl1verQWE/my-web-course.git"
+  },
+  "keywords": [],
+  "author": "fl1ver",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Fl1verQWE/my-web-course/issues"
+  },
+  "homepage": "https://github.com/Fl1verQWE/my-web-course#readme"
+}
