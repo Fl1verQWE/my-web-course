@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Cookly</h2>
+      <nav>
+        <a href="#home">Головна</a>
+        <a href="#features">Можливості</a>
+        <a href="#pricing">Тарифи</a>
+        <a href="#register">Реєстрація</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Cookly - твоя колекція рецептів</h1>
+        <p>
+          Зберігай улюблені рецепти, відкривай нові страви та створюй власну
+          кулінарну книгу. Готуй легко разом із Cookly!
+        </p>
+        <img src="imgCookly.jpeg" alt="blablabla" width="500" />
+      </section>
+      <section id="features">
+        <h2>Що всередині?</h2>
+        <h3>Можливості Cookly</h3>
+        <ul>
+          <li>Зберігання улюблених рецептів</li>
+          <li>Пошук рецептів за категоріями</li>
+          <li>Створення власних рецептів</li>
+          <li>Список необхідних інгредієнтів</li>
+          <li>Оцінювання улюблених страв</li>
+        </ul>
+      </section>
+      <section id="pricing">
+        <h2>Наші тарифи</h2>
+        <table>
+          <caption>
+            Порівняння тарифів Cookly
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Можливості</th>
+              <th scope="col">Free</th>
+              <th scope="col">Chef</th>
+              <th scope="col">MasterChef</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Ціна на місяць</th>
+              <td>Безкоштовно</td>
+              <td>99 грн</td>
+              <td>199 грн</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Кількість рецептів</th>
+              <td>20</td>
+              <td>100</td>
+              <td>Без обмежень</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Власні категорії</th>
+              <td>Ні</td>
+              <td>Так</td>
+              <td>Так</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Список покупок</th>
+              <td>Ні</td>
+              <td>Так</td>
+              <td>Так</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Ексклюзивні рецепти</th>
+              <td>Ні</td>
+              <td>Ні</td>
+              <td>Так</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Підтримка</th>
+              <td colspan="3">Доступна для всіх користувачів</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="register">
+        <h2>Приєднуйся до Cookly</h2>
+        <p>Заповни форму та створи власну колекцію рецептів!</p>
+
+        <form action="#" method="post">
+          <p>
+            <label for="name">Ім'я:</label>
+            <input type="text" name="name" id="name" required />
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </p>
+
+          <p>
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" />
+          </p>
+
+          <p>
+            <label for="plan">Обери тариф:</label>
+            <select id="plan" name="plan">
+              <option value="free">Free</option>
+              <option value="chef">Chef</option>
+              <option value="masterchef">MasterChef</option>
+            </select>
+          </p>
+
+          <fieldset>
+            <legend>Формат сповіщень</legend>
+            <input
+              type="radio"
+              id="notify-email"
+              name="notifications"
+              value="email"
+              checked
+            />
+            <label for="notify-email">Email</label>
+            <input
+              type="radio"
+              id="notify-telegram"
+              name="notifications"
+              value="telegram"
+            />
+            <label for="notify-telegram">Telegram</label>
+          </fieldset>
+
+          <p>
+            <input type="checkbox" id="agreement" name="agreement" required />
+            <label for="agreement"> Я погоджуюся з умовами користування </label>
+          </p>
+          <p>
+            <label for="wishes">Твої побажання:</label>
+            <textarea
+              id="wishes"
+              name="wishes"
+              rows="4"
+              cols="40"
+              placeholder="Які рецепти тобі подобаються?"
+            ></textarea>
+          </p>
+
+          <button type="submit">Зареєструватися</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Cookly. Усі права захищені.</p>
+
+      <p>
+        Контакти:
+        <a href="###"> cooklytop@ananas.moc</a>
+      </p>
+
+      <p>
+        Соцмережі:
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Telegram</a>
+      </p>
+    </footer>
+  </body>
+</html>
