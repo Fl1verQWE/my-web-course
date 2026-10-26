@@ -29,6 +29,14 @@ Currently, Cookly is a landing page built using HTML. In the future, CSS, JavaSc
 ```text
 Cookly/
 ├── index.html
+├── stule.css
+├── screenshots/
+│   ├── desktop.png
+│   ├── desktop1.png
+│   ├── desktop2.png
+│   ├── desktop3.png
+│   └── desktop4.png
+├── imgCookly.jpeg
 └── README.md
 ```
 
