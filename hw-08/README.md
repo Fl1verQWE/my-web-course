@@ -14,3 +14,7 @@ A simple fitness website with personalized workout programs.
 - HTML
 - CSS
 - JavaScript
+
+## How to open?
+
+https://fl1verqwe.github.io/my-web-course/hw-08
